@@ -90,10 +90,18 @@ public class Main {
  */
 /*
 //Indica la cantidad de decimales que queremos ver en un double
-        double num = 123.33243;
+//DecimalFormat
+        double num1 = 123.33243;
         DecimalFormat df = new DecimalFormat("#.00");
-        JOptionPane.showMessageDialog(null, df.format(num));
-        System.out.println(df.format(num));
+        JOptionPane.showMessageDialog(null, df.format(num1));
+        System.out.println(df.format(num1));
+//String Format
+        double num2 = 123.33243;
+        //2 decimales
+        System.out.println(String.format("%.2f", num2));
+        //3 decimales
+        System.out.println(String.format("%.3f", num2));
+
  */
 /*
 //float, double
@@ -203,17 +211,11 @@ Por ejemplo:
 
 
 
+
+
+
+
+
+
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
