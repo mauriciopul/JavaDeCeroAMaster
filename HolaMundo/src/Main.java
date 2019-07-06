@@ -105,12 +105,92 @@ public class Main {
         System.out.println("false tipo boolean:" + Boolean.FALSE);
         System.out.println();
  */
+/*
+//Conversión  de datos
 
+        //String a Entero
+        int ed = Integer.parseInt("20");
+        int s = 15 + ed;
+        System.out.println("ed = " + s);
 
+        //String a Entero ingresado por consola
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite su edad:");
+        int edad = Integer.parseInt(scanner.nextLine());
+        System.out.println("edad = " + edad);
 
+        //String a Double
+        double vlrPi = Double.parseDouble("3.14");
+        System.out.println("vlrPi = " + vlrPi);
 
+        //String a Char
+        char c = "Hola".charAt(0);
+        System.out.println("c = " + c);
 
+        //Entero a String
+        String edadTexto = String.valueOf(35);
+        System.out.println("edadTexto = " + edadTexto);
+ */
+/*
+//Ejercicio
+Se solicita capturar la siguiente información de una tienda de libros:
+    nombre (String)
+    id (int)
+    precio (double)
+    simbolo (char)
+    envioGratuito (boolean)
 
+Tu tarea es imprimir un mensaje en el siguiente formato:
+
+    Proporciona el nombre:
+    Proporciona el id:
+    Proporciona el precio:
+    Proporciona el simbolo:
+    Proporciona el envio gratuito:
+    <nombre> #<id>
+    Precio: <simbolo><precio>
+    Envio Gratuito: <envioGratuito>
+
+Por ejemplo:
+
+    Proporciona el nombre:
+    Programacion con Java
+    Proporciona el id:
+    1520
+    Proporciona el precio:
+    899
+    Proporciona el simbolo:
+    $
+    Proporciona el envio gratuito:
+    true
+    Programacion con Java #1520
+    Precio: $899.00
+    Envio Gratuito: true
+ */
+/*
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingrese el nombre: ");
+        String nombre = scanner.nextLine();
+
+        System.out.print("Ingrese el id: ");
+        int id = Integer.parseInt(scanner.nextLine());
+
+        System.out.print("Ingrese el precio: ");
+        Double precio = Double.parseDouble(scanner.nextLine());
+
+        System.out.print("Ingrese el simbolo: ");
+        char simbolo = scanner.nextLine().charAt(0);
+
+        System.out.print("Ingrese el envio gratuito:" +
+                "\nfalse para NO enviar gratis" +
+                "\ntrue para enviar gratis\n");
+        boolean envioGratuito = scanner.nextBoolean();
+        System.out.println("---------------------------------");
+
+        System.out.println(nombre + " #"+id);
+        System.out.println("Precio: "+simbolo+precio);
+        System.out.println("Envio gratuito: "+envioGratuito);
+ */
 
 
     }
