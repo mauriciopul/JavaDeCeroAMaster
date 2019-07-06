@@ -86,7 +86,44 @@ public class Main {
         var floatVar2 = 10.0F;
         var doubleVar2 = 10.15D;
  */
-        System.out.println("short1.SIZE = " + Short.MAX_VALUE);
-        System.out.println("short1.SIZE = " + Short.MIN_VALUE);
+/*
+//float, double
+        System.out.println("valor tipo char:" + Character.SIZE);
+        System.out.println("valor tipo char:" + Character.BYTES);
+        System.out.println("valor minimo tipo float:" + Character.MIN_VALUE);
+        System.out.println("valor maximo tipo float:" + Character.MAX_VALUE);
+        System.out.println();
+        //char c = '@';//los que son tipo CHAR se escriben en commilla simple
+        char c = 33;
+        System.out.println("c = " + c);//De esta manara se imprime el valor DECIMAL 33 de la tabla unicode
+ */
+/*
+//boolean
+        //System.out.println("valor tipo boolean:" + Boolean.SIZE);//El tamaño depende de la arquitectura del pc
+        //System.out.println("valor tipo boolean:" + Boolean.BYTES);//El tamaño depende de la arquitectura del pc
+        System.out.println("true  tipo boolean:" + Boolean.TRUE);
+        System.out.println("false tipo boolean:" + Boolean.FALSE);
+        System.out.println();
+ */
+
+
+
+
+
+
+
+
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
