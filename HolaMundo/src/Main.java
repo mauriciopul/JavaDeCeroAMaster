@@ -1,4 +1,6 @@
+import javax.swing.*;
 import java.util.Scanner;
+import java.text.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -85,6 +87,13 @@ public class Main {
 
         var floatVar2 = 10.0F;
         var doubleVar2 = 10.15D;
+ */
+/*
+//Indica la cantidad de decimales que queremos ver en un double
+        double num = 123.33243;
+        DecimalFormat df = new DecimalFormat("#.00");
+        JOptionPane.showMessageDialog(null, df.format(num));
+        System.out.println(df.format(num));
  */
 /*
 //float, double
@@ -191,6 +200,7 @@ Por ejemplo:
         System.out.println("Precio: "+simbolo+precio);
         System.out.println("Envio gratuito: "+envioGratuito);
  */
+
 
 
     }
