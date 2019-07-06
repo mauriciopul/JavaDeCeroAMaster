@@ -1,3 +1,3 @@
-HolaMundo/out
-/.idea
+HolaMundo/out/*
+/.idea/*
 /*.iml
