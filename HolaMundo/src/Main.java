@@ -208,14 +208,33 @@ Por ejemplo:
         System.out.println("Precio: "+simbolo+precio);
         System.out.println("Envio gratuito: "+envioGratuito);
  */
+/*
+//Ejercicio Perimetro y Area
+        int alto = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el alto"));
+        int ancho = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el ancho"));
+        int area = alto * ancho;
+        int perim = (alto + ancho) * 2;
+        System.out.println("Area = " + area);
+        System.out.println("Perimetro = " + perim);
+         */
+/*
+//Operador Ternario
+        int num = 101;
+        String resul1 = (num % 2 == 0) ? "Es PAR" : "Es IMPAR";
+        System.out.println("resul = " + resul1);
 
-
-
-
-
-
-
-
+        boolean esPar = (num % 2 == 0) ? true : false;
+        System.out.println("Es PAR? = " + esPar);
+//Ejercicio de número mayor con operador ternario
+        int n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese numero 1: "));
+        int n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese numero 2: "));
+        if (n1 == n2) {
+            System.out.println("Son iguales");
+        } else {
+            String mayor = (n1 > n2) ? "El número mayor es: "+n1 : "El número mayor es: "+n2;
+            System.out.println(mayor);
+        }
+ */
 
     }
 }
