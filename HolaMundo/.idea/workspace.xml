@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35ec9f7b-4eda-4e14-87d3-fca12bb840ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HolaMundo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HolaMundo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HolaMundo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HolaMundo/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,35 +19,7 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="275" column="3" selection-start-line="275" selection-start-column="3" selection-end-line="275" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#134#317#0" />
-                <element signature="e#318#541#0" />
-                <element signature="e#542#854#0" />
-                <element signature="e#855#1108#0" />
-                <element signature="e#1109#2699#0" />
-                <element signature="e#2700#3439#0" />
-                <element signature="e#3440#3928#0" />
-                <element signature="e#3929#4474#0" />
-                <element signature="e#4475#4881#0" />
-                <element signature="e#4882#5650#0" />
-                <element signature="e#5651#6414#0" />
-                <element signature="e#6415#7322#0" />
-                <element signature="e#7323#7330#0" />
-                <element signature="e#7710#7978#0" />
-                <element signature="e#8473#9915#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,22 +53,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="HolaMundo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HolaMundo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HolaMundo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HolaMundo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,14 +101,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1288" y="-234" width="1296" height="1010" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17152104" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17152104" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -156,7 +115,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3290398" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36885247" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3149883" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32435596" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -174,28 +133,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="275" column="3" selection-start-line="275" selection-start-column="3" selection-end-line="275" selection-end-column="3" />
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#134#317#0" />
-            <element signature="e#318#541#0" />
-            <element signature="e#542#854#0" />
-            <element signature="e#855#1108#0" />
-            <element signature="e#1109#2699#0" />
-            <element signature="e#2700#3439#0" />
-            <element signature="e#3440#3928#0" />
-            <element signature="e#3929#4474#0" />
-            <element signature="e#4475#4881#0" />
-            <element signature="e#4882#5650#0" />
-            <element signature="e#5651#6414#0" />
-            <element signature="e#6415#7322#0" />
-            <element signature="e#7323#7330#0" />
-            <element signature="e#7710#7978#0" />
-            <element signature="e#8473#9915#0" />
+            <element signature="e#236#251#0" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HolaMundo.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

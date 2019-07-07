@@ -6,12 +6,29 @@ import java.text.*;
 
 public class Main {
     public static void main(String[] args) {
+
+
+
+
+
+
+
+
+    }//fin pulic static void main
+}//Fin public class Main
+
+
+//<editor-fold>
+
 /*
         String saludo = ("Hola Mundo, Adios");
         System.out.println(saludo);
         System.out.println();
         String s = "Despedirse";
         System.out.println(s);
+
+
+
  */
 /*
         Scanner scanner = new Scanner(System.in);
@@ -274,11 +291,24 @@ cualquier otro valor debe imprimir: Valor desconocido
             }
         }//Fin While
  */
-
-
-
-
-
-
-    }//fin pulic static void main
-}//Fin public class Main
+/*
+//Switch
+        int num = 2;
+        String texto ="Numero desconocido";
+        switch (num) {
+            case 1:
+                texto = "1";
+                break;
+            case 2:
+                texto = "2";
+                break;
+            case 3:
+                texto = "3";
+                break;
+            default:
+                texto = "Numero desconocido";
+                break;
+        }
+        System.out.println(texto);
+ */
+//</editor-fold>
