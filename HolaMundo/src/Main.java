@@ -1,3 +1,5 @@
+import jdk.nashorn.internal.scripts.JO;
+
 import javax.swing.*;
 import java.util.Scanner;
 import java.text.*;
@@ -235,6 +237,48 @@ Por ejemplo:
             System.out.println(mayor);
         }
  */
+/*
+//Ejercicio Sistema de calificaciones
+El usuario proporcionará un valor entre 0 y 10.
+Si está entre 9 y 10: imprimir una A
+Si está entre 8 y menor a 9: imprimir una B
+Si está entre 7 y menor a 8: imprimir una C
+Si está entre 6 y menor a 7: imprimir una D
+Si está entre 0 y menor a 6: imprimir una F
+cualquier otro valor debe imprimir: Valor desconocido
+        boolean salida = false;
+        while (salida == false) {
+            double nota = Double.parseDouble(JOptionPane.showInputDialog("Ingrese su nota"));
 
-    }
-}
+            if (nota < 0) {
+                JOptionPane.showMessageDialog(null, "Ingrese nota válida");
+                salida = false;
+            } else if (nota < 6) {
+                JOptionPane.showMessageDialog(null, "F");
+                salida = true;
+            } else if (nota < 7) {
+                JOptionPane.showMessageDialog(null, "D");
+                salida = true;
+            } else if (nota < 8) {
+                JOptionPane.showMessageDialog(null, "C");
+                salida = true;
+            } else if (nota < 9) {
+                JOptionPane.showMessageDialog(null, "B");
+                salida = true;
+            } else if (nota <= 10) {
+                JOptionPane.showMessageDialog(null, "A");
+                salida = true;
+            } else {
+                JOptionPane.showMessageDialog(null, "Ingrese nota válida");
+                salida = false;
+            }
+        }//Fin While
+ */
+
+
+
+
+
+
+    }//fin pulic static void main
+}//Fin public class Main
