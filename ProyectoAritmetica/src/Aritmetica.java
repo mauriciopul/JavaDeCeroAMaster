@@ -7,13 +7,25 @@ public class Aritmetica {
     }
 
     //Constructor con argumentos
-    Aritmetica(int arg1, int arg2) {
-        a = arg1;
-        b = arg2;
+    Aritmetica(int a, int b) {
+        this.a = a;
+        this.b = b;
     }
 
     int sumar() {
         return a + b;
+    }
+
+    int restar() {
+        return a - b;
+    }
+
+    int multiplicar() {
+        return a * b;
+    }
+
+    int divivid() {
+        return a / b;
     }
 
 }

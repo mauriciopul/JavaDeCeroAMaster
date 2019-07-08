@@ -1,13 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        Aritmetica objeto1 = new Aritmetica();
-        objeto1.a = 5;
-        objeto1.b = 3;
-        int resultado = objeto1.sumar();
-        System.out.println("resultado 1 = " + resultado);
 
-        Aritmetica objeto2 = new Aritmetica(2, 4);
-        System.out.println("Resultado 2 = " + objeto2.sumar());
+        int operandoA = 6;
+        int operandoB = 2;
+
+        Aritmetica op1 = new Aritmetica(operandoA, operandoB);
+        System.out.println("Sumar = " + op1.sumar());
+        System.out.println("Restar = " + op1.restar());
+        System.out.println("Multiplicar = " + op1.multiplicar());
+        System.out.println("Dividir = " + op1.divivid());
+
 
     }
 }
